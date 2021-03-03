@@ -2,7 +2,7 @@
 
 SPIM: Simulating Photometric Images of Moving Targets with Photon-mapping
 
-We present a novel easy-to-use method based on the photon-mapping technique to simulate photometric images of moving targets. 
+We present a novel, easy-to-use method based on the photon-mapping technique to simulate photometric images of moving targets. 
 Realistic images can be created in two passes: photon tracing and image rendering. 
 In the first pass, a photon map is established by emitting discrete photons from the light sources and tracing them through the scene. 
 In the second pass, the images are rendered using the information stored in the photon map. 
