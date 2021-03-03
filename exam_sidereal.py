@@ -7,7 +7,7 @@ import numpy.random as rd
 
 
 # input file, a file to mimic.
-fits_file = 'exam_sidereal.fits'
+fits_file = 'sidereal.fits'
 img_photon = 'eSIMU_'+fits_file
 img_adu = 'SIMU_'+fits_file
 
