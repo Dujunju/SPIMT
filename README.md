@@ -1,6 +1,6 @@
 # SPIMT
 
-SPIM: Simulating Photometric Images of Moving Targets with Photon-mapping
+## SPIM: Simulating Photometric Images of Moving Targets with Photon-mapping
 
 We present a novel, easy-to-use method based on the photon-mapping technique to simulate photometric images of moving targets. 
 Realistic images can be created in two passes: photon tracing and image rendering. 
@@ -14,3 +14,33 @@ The method is versatile and can be used to plan future observations of moving ta
 
 The simulation architecture was implemented based on some off-the-shelf libraries, such as Astropy, Skyfield, and Astroquery. 
 A demo script written in Python code is available here.
+
+## Some packages are required：
+
++ numpy
++ pandas
++ scipy
++ astropy
++ skyfield
++ astroquery
++ photutils
+
+## Contents
+
++ spimt.py: the main module of SPIMT.
++ exam_target.py:  a demo script to generate a fits image in target tracking mode.
+  + target.fits:  the fits image to mimic in target tracking mode.
+  + SIMU_target.fits: the simulated fits image in ADU corresponding to target.fits
+  + eSIMU_target.fits: the simulated fits image in photon-electron correspongding to target.fits.
+  
++ exam_sidereal.py:  a demo script to generate a fits image in sidereal tracking mode.
+  + sidereal.fits:  the fits image to mimic in sidereal tracking mode.
+  + SIMU_sidereal.fits: the simulated fits image in ADU corresponding to sidereal.fits
+  + eSIMU_sidereal.fits: the simulated fits image in photon-electron correspongding to sidereal.fits.
+
++ exam_parking.py:  a demo script to generate a fits image in parking tracking mode.
+  + parking.fits:  the fits image to mimic in parking tracking mode.
+  + SIMU_parking.fits: the simulated fits image in ADU corresponding to parking.fits
+  + eSIMU_parking.fits: the simulated fits image in photon-electron correspongding to parking.fits.
+
+## 
