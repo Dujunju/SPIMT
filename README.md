@@ -1,6 +1,6 @@
 # SPIMT
 
-## SPIM: Simulating Photometric Images of Moving Targets with Photon-mapping
+## SPIMT: Simulating Photometric Images of Moving Targets with Photon-mapping
 
 We present a novel, easy-to-use method based on the photon-mapping technique to simulate photometric images of moving targets. 
 Realistic images can be created in two passes: photon tracing and image rendering. 
@@ -43,4 +43,6 @@ A demo script written in Python code is available here.
   + SIMU_parking.fits: the simulated fits image in ADU corresponding to parking.fits
   + eSIMU_parking.fits: the simulated fits image in photon-electron correspongding to parking.fits.
 
-## 
+## Feedback
+
+Any question can be sent to dujunju@126.com.
